@@ -8,3 +8,19 @@ main{
   right: 30px;
 }
 
+.dice--component{
+  border: 1px solid black;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+.diceContainer{
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap:40px 80px;
+}
+
