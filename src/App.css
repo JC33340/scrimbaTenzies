@@ -1,20 +1,31 @@
 main{
-  background-color: white;
+  background-color: #F5F5F5;
   border-radius: 10px;
   position: absolute;
   top: 50px;
   bottom:50px;
   left: 30px;
   right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .dice--component{
-  border: 1px solid black;
+  background-color: white;
   height: 5rem;
   width: 5rem;
   line-height: 5rem;
   text-align: center;
   border-radius: 10px;
+  box-shadow: 0 2px 0 2px lightgrey;
+  cursor: pointer;
+  font-family: Karla;
+}
+
+.dice--component>b{
+  font-size: 2.5rem;
 }
 
 
