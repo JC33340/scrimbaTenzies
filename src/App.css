@@ -10,6 +10,7 @@ main{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: Karla;
 }
 
 .dice--component{
@@ -20,7 +21,7 @@ main{
   border-radius: 10px;
   box-shadow: 0 2px 0 2px lightgrey;
   cursor: pointer;
-  font-family: Karla;
+
 }
 
 .dice--component>b{
@@ -37,10 +38,15 @@ main{
 .reset--button{
   margin-top: 20px;
   height: 2.5rem;
-  width: 5rem;
+  width: 7rem;
   background-color: #5035FF;
   border: none;
   font-weight: bold;
   color: white;
   border-radius: 5px;
+}
+
+.title{
+  font-size: 5rem;
+  margin-top: 0;
 }
